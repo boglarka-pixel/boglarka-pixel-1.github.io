@@ -1,75 +1,120 @@
-body{
-  font-family: 'Open Sans', sans-serif;
+main {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
-main{
-  width: 600px;
-  margin: 0 auto;
-}  
-.newsletter-form{
-  color: greenyellow;
-  border: 1px solid #cccccc;
-  padding: 10px;
-  border-radius: 3px;
-  position: absolute;
-   }
-.newsletter-form h2 {
-  margin-top: 0;
-}
-a {
-  color: #3CB878;
-}
-input[type="text"]{
-  width: 100%;
-  box-sizing: border-box;
-  margin: 0 0 5px;
-}
-input[type="submit"]{
-  width: 100%;
-  box-sizing: border-box;
-  background: #3CB878;
-  border: 0;
-  color: white;
-  height: 25px;
-  margin: 0 0 5px;
-  cursor: pointer;
-}
-.exit-button{
-  position: absolute;
-  top: 3px;
-  right: 10px;
-  cursor: pointer;
-}
-.question-button{
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  width: 100px;
-  height: 100px;
-  color: white;
-  font-size: 70px;
-  text-align: center;
-  border-radius: 50px;
-  background:  #3CB878;
-  cursor: pointer;
-  line-height: 100px; 
-}
-.feature{
-  background:  #3CB878;
-  padding: 20px;
-  margin: 10px;
-  }
 
-.key-features {
+header {
+  height: 400px;
+  background: url(http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png);
+  background-size: cover;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: flex-end;
+  justify-content: center;
+  color:#222 grey;
+  outline: 4px solid black;
+ }
+
+section{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 60px;
+  height: 30%;
+  width: 60%;
+  padding-bottom: 20px;
+  line-height: 1;
+  color:#222 grey
 }
+section::first-line{
+  font-size: 30px;
+  color:#222 grey
+}
+.selection{
+  font-family: 'Josefin Sans', sans-serif;
+  width: 620px;
+  line-height: 2;
+  color:#222 grey;
+  }
+
+div {
+  width: 50%;
+  margin-left: 20%;
+  margin-right: auto;
+  line-hight: 1;
+}
+ul{
+  line-height: 2;
+  color:#222 grey;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.blockquote{
+  font-family: 'Abril Fatface', cursive;
+  background: #444444;
+  color: white;
+  font-size: 50px;
+  width: 800px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  margin: auto;
+  margin-top:30px;
+  }
+
+.blockquote::before {
+  content: '”';
+ }
+
+.paragraph{
+  font-family: 'Josefin Sans', sans-serif;
+  width: 65%;
+  line-height: 1.5;
 }
 
-.feature p {
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 0;
+h1{
+  padding-top:20px;
+  line-hight: 2;
   }
+
+h2{
+  padding-top:20px;
+  padding-bottom:20px;
+  }
+
+.p{
+ font-family: 'Josefin Sans', sans-serif;
+ 
+}
+.blockquotetwo{
+  font-family: 'Abril Fatface', cursive;
+  background: #444444;
+  color: white;
+  font-size: 50px;
+  width: 780px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: auto;
+  height: 150px;
+  padding-left: 20px;
+  margin-top:40px;
+  }
+
+.blockquotetwo::before {
+  content: '”';}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+h4 {
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 0px;
+  font-style:italic;
+}
+hr {
+  height: 2px;
+  width: 800px;
+  background: black;}
