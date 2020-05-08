@@ -19,18 +19,15 @@ body {
   
   img {
     vertical-align: middle;
+  
   }
   
   /* Position the image container (needed to position the left and right arrows) */
   .container {
     position: relative;
     padding: 80px 120px 80px;
-  }
-  
-  /* Hide the images by default */
-  .mySlides {
-    display: none;
-  }
+    }
+ 
   
   /* Add a pointer when hovering over the thumbnail images */
   .cursor {
