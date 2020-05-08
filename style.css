@@ -1,14 +1,11 @@
 body {
     font-family: 'Lobster', cursive;
-    margin: 60px;
+    margin: 0;
     background-color: bisque;
-    float: left;
-    background: linear-gradient(bisque, white);
-    background-repeat: no-repeat;
   }
 
   h2{
-      margin-top: -20px;
+      padding-top:40px;
       margin-bottom: -20px;
       font-size: 50px;
   }
@@ -19,15 +16,18 @@ body {
   
   img {
     vertical-align: middle;
-  
   }
   
   /* Position the image container (needed to position the left and right arrows) */
   .container {
     position: relative;
     padding: 80px 120px 80px;
-    }
- 
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
   
   /* Add a pointer when hovering over the thumbnail images */
   .cursor {
@@ -46,14 +46,17 @@ body {
     color: white;
     font-weight: bold;
     font-size: 20px;
+    border-radius: 0 3px 3px 0;
     user-select: none;
     -webkit-user-select: none;
   }
   
   /* Position the "next button" to the right */
   .next {
+    text-align: right;
     right: 0;
     border-radius: 3px 0 0 3px;
+    margin-right: 120px;
   }
   
   /* On hover, add a black background color with a little bit see-through */
@@ -64,13 +67,20 @@ body {
   
   /* Number text (1/3 etc) */
   .numbertext {
-    color: grey;
-    font-size: 20px;
+    color: #f2f2f2;
+    font-size: 12px;
     padding: 8px 12px;
     position: absolute;
     top: 0;
   }
   
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
   
   .row:after {
     content: "";
@@ -93,7 +103,3 @@ body {
   .demo:hover {
     opacity: 1;
   }
-  
-h1, h3{
-  color: #293d3d;
-}
